@@ -6,7 +6,7 @@ A shop management application built using Java and MySQL.
 - Product management
 - Sales tracking
 - Database integration
-- Bill Implementations
+- Bill Implementation
 
 ## Tech Stack
 - Java
