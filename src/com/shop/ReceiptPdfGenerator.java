@@ -43,14 +43,17 @@ public class ReceiptPdfGenerator {
             document.add(new Paragraph("-----------------------------"));
 
             // Items
+            // Items
             for (SaleItem item : items) {
                 Paragraph p = new Paragraph(
-                        item.getName() + "  x" + item.getQuantity() +
-                                "  " + item.getTotalPrice(),
+                        "Product: " + item.getBarcode() +
+                                "  x" + item.getQuantity() +
+                                "  Profit: ₹" + item.getProfit(),
                         normalFont
                 );
                 document.add(p);
             }
+
 
             document.add(new Paragraph("-----------------------------"));
 

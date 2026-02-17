@@ -53,7 +53,7 @@ public class InsightEngine {
 
         // 3️⃣ Profit/Loss insight
         if (latest.getNetProfit() > 0) {
-            insights.add("Alhamdulilah 💰 Shop is profitable this month.");
+            insights.add("💰 Shop is profitable this month.");
         } else {
             insights.add("⚠ Shop is running at a loss this month.");
         }
